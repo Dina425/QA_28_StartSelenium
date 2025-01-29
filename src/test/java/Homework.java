@@ -22,6 +22,8 @@ public class Homework {
         WebElement button = wd.findElement(By.tagName("button"));
         WebElement input = wd.findElement(By.tagName("input"));
         WebElement form = wd.findElement(By.tagName("form"));
+        wd.quit();
 
     }
+
 }
