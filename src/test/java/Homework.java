@@ -24,6 +24,17 @@ public class Homework {
         WebElement form = wd.findElement(By.tagName("form"));
         WebElement body = wd.findElement(By.tagName("body"));
         // by css, class, id,attribute( start mid end)
+
+        WebElement body1 = wd.findElement(By.xpath("//body"));
+        WebElement div1= wd.findElement(By.cssSelector("div"));
+        WebElement el= wd.findElement(By.xpath("//*[@class='container']"));
+        WebElement el1= wd.findElement(By.xpath("//*[@id='root']"));
+        WebElement el2= wd.findElement(By.xpath("//input[@placeholder='Password']"));
+        WebElement el3=wd.findElement(By.xpath("//input[starts-with(@placeholder,'Pa')]"));
+        WebElement el4=wd.findElement(By.xpath("//input[contains(@placeholder,'as')]"));
+
+
+
         wd.quit();
 
     }

@@ -53,6 +53,7 @@ public class Index {
 
         WebElement a3= wd.findElement(By.linkText("Item 1"));
         WebElement a4=wd.findElement(By.partialLinkText("m 1"));
+        WebElement canada1= wd.findElement(By.xpath("//td[text()='Canada']"));
 
 
 
